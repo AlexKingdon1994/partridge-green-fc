@@ -1,0 +1,171 @@
+body {
+	background-image: url("images/whitediamond.png");
+	background-repeat: repeat;
+}
+
+.flexbox {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+}
+
+* {
+	box-sizing: border-box;
+}
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+/* Home Page */
+
+.topbar {
+	background-color: #302e2e;
+	padding-top: 50px;
+}
+
+.navbar {
+	background-color: #008001;
+	height: 115px;
+	width: 100%;
+	white-space: nowrap;
+}
+
+.navbar a {
+	text-decoration: none;
+	padding: 0 50px;
+	margin: 0;
+	display: inline-block;
+	position: relative;
+	font-size: 2.2em;
+	color: #fceaea;
+}
+
+.heroimage {
+	opacity: 0.8;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	z-index: 0;
+}
+
+.heroimage--home{
+	height: 495px;
+	background-image: url("images/footballpitch.jpg");
+}
+
+.heroimage--teams {
+	height: 175px;
+	background-image: url("images/football.jpg");
+}
+
+.heroimage--about {
+	height: 175px;
+	background-image: url("images/football.jpg");
+}
+
+.wrapper {
+	max-width: 900px;
+	width: 100%;
+	padding: 0 20px;
+	margin: 0 auto;
+	position: relative;
+}
+
+ul { 
+	list-style-type: none;
+	padding: 0;
+}
+
+li:last-child {
+	border-right: none;
+}
+
+.navbarlist {
+	display: inline-block;
+	border-right: 1px solid black;
+	color: white;
+}
+
+.left,
+.right {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	white-space: normal;
+}
+.left {
+	width: 25%;
+	text-align: right;    
+  	padding: 0;
+  	margin: 0;
+  	right: 3.5%;
+  	z-index: 1;
+}
+
+.right {
+	width: 75%; 
+  	text-align: right;    
+  	padding: 0;
+  	margin: 0;
+  	height: 110px;
+}
+
+.blackbackground {
+	padding: 20px;
+	background-color: #302e2e;
+	z-index: 3;
+
+}
+
+.h1home {
+	color: white;
+	opacity: 0.8;
+	margin: 0;
+	padding-top: 150px;
+	padding-left: 150px;
+}
+
+.h1teams {
+	color: black;
+	opacity: 0.8;
+	margin: 0;
+	padding-top: 100px;
+	padding-left: 150px;
+}
+.h1about {
+	color: black;
+	opacity: 0.8;
+	margin: 0;
+	padding-top: 100px;
+	padding-left: 150px;
+}
+
+.iframe {
+	width: 900px;
+	height: 720px;
+}
+
+footer {
+	background-color: #302e2e;
+	margin-top: 50px;
+	width: 100%;
+	height: 75px;
+}
+
+.footer {
+	padding: 20px 0;
+	color: white;
+	margin-bottom: 0px;
+}
+
+.contactheader {
+	padding-top: 7%;
+}
+
+.main-content {
+	min-height: calc(100vh - 75px);
+}
